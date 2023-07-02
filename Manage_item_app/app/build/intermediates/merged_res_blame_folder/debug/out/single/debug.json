@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.manage_item.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_ic_out.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/ic_out.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_ic_update.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/ic_update.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_ic_password_24.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/ic_password_24.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_activity_change_password.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_fragment_user_list.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/fragment_user_list.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_activity_employee.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/activity_employee.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_activity_add_user.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/activity_add_user.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_ic_home.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_activity_my_profile.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/activity_my_profile.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.manage_item.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_bglogin.jpg.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/bglogin.jpg"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_frame_view_profile.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/frame_view_profile.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_ic_person.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_activity_home.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_ic_delete.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_ic_person_pin_24.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/ic_person_pin_24.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.manage_item.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_ic_history.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_layout_head_nav.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/layout_head_nav.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_fragment_prohibited_items.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/fragment_prohibited_items.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_activity_history_detect_em.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/activity_history_detect_em.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_activity_add_item.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/activity_add_item.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_fragment_prohibited_items_em.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/fragment_prohibited_items_em.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.manage_item.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.manage_item.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_ic_search.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.manage_item.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_bg_white_boder.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/bg_white_boder.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_activity_history_detect.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/activity_history_detect.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_ic_point_24.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/ic_point_24.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_login_frame.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/login_frame.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.manage_item.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_ic_library_books.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/ic_library_books.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_frame_history.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/frame_history.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.manage_item.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_frame_item.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/frame_item.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/xml_backup_rules.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/drawable_ic_punch.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/drawable/ic_punch.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.manage_item.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_frag_user_list_employee.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/frag_user_list_employee.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_activity_mangage.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/activity_mangage.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_frame_user.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/frame_user.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_activity_profile.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/menu_menu_nav.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/menu/menu_nav.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/layout_activity_update_user.xml.flat",
+        "source": "com.example.manage_item.app-main-34:/layout/activity_update_user.xml"
+    },
+    {
+        "merged": "com.example.manage_item.app-merged_res-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.manage_item.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+    }
+]

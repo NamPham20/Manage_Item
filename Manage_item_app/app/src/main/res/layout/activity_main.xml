@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bglogin"
+    android:gravity = "center_horizontal"
+
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_person_pin_24"
+        app:civ_border_width="2dp"
+        android:layout_marginTop="155dp"
+        app:civ_border_color="#FF000000"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="User Name ID"
+        android:textSize="20dp"
+        android:id="@+id/edtUser_Name_Id"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:background="@drawable/login_frame"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_punch"
+        android:drawablePadding="10dp"
+        android:background="@drawable/login_frame"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_frame"
+        />
+
+    <TextView
+        android:id="@+id/tvForgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        />
+
+
+
+
+
+</LinearLayout>

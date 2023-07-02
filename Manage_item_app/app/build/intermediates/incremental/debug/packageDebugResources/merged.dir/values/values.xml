@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Manage_Item</string>
+    <string name="nav_change_password">Change Password</string>
+    <string name="nav_history">History</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_list_of_prohibited_items">List Of Prohibited Items</string>
+    <string name="nav_log_out">Log Out</string>
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_user_list">User List</string>
+    <string name="navigation_drawer_close">Navigation Drawer Close</string>
+    <string name="navigation_drawer_open">Navigation Drawer Open</string>
+    <style name="Theme.Manage_Item" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

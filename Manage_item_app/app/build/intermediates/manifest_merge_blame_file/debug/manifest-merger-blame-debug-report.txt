@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.manage_item"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml
+10
+11    <permission android:name="MANAGE_EXTERNAL_STORAGE" />
+11-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:5:5-58
+11-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:5:17-55
+12    <permission
+12-->[androidx.core:core:1.9.0] C:\Users\Namph\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+13        android:name="com.example.manage_item.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+13-->[androidx.core:core:1.9.0] C:\Users\Namph\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+14        android:protectionLevel="signature" />
+14-->[androidx.core:core:1.9.0] C:\Users\Namph\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+15
+16    <uses-permission android:name="com.example.manage_item.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+16-->[androidx.core:core:1.9.0] C:\Users\Namph\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+16-->[androidx.core:core:1.9.0] C:\Users\Namph\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+17
+18    <application
+18-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:7:5-59:19
+19        android:allowBackup="true"
+19-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:8:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.9.0] C:\Users\Namph\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+21        android:dataExtractionRules="@xml/data_extraction_rules"
+21-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:9:9-65
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:fullBackupContent="@xml/backup_rules"
+24-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:10:9-54
+25        android:icon="@mipmap/ic_launcher"
+25-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:11:9-43
+26        android:label="@string/app_name"
+26-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:12:9-41
+27        android:supportsRtl="true"
+27-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:13:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.Manage_Item" >
+29-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:14:9-49
+30        <activity
+30-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:16:9-18:40
+31            android:name="com.example.manage_item.Home"
+31-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:17:13-33
+32            android:exported="false" />
+32-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:18:13-37
+33        <activity
+33-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:19:9-21:40
+34            android:name="com.example.manage_item.HistoryDetect"
+34-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:20:13-42
+35            android:exported="false" />
+35-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:21:13-37
+36        <activity
+36-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:22:9-24:40
+37            android:name="com.example.manage_item.HistoryDetect_Em"
+37-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:23:13-45
+38            android:exported="false" />
+38-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:24:13-37
+39        <activity
+39-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:25:9-27:40
+40            android:name="com.example.manage_item.AddItem"
+40-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:26:13-36
+41            android:exported="false" />
+41-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:27:13-37
+42        <activity
+42-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:28:9-30:40
+43            android:name="com.example.manage_item.Profile"
+43-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:29:13-36
+44            android:exported="false" />
+44-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:30:13-37
+45        <activity
+45-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:31:9-33:40
+46            android:name="com.example.manage_item.ChangePassword"
+46-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:32:13-43
+47            android:exported="false" />
+47-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:33:13-37
+48        <activity
+48-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:34:9-36:40
+49            android:name="com.example.manage_item.MyProfile"
+49-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:35:13-38
+50            android:exported="false" />
+50-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:36:13-37
+51        <activity
+51-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:37:9-39:40
+52            android:name="com.example.manage_item.UpdateUser"
+52-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:38:13-39
+53            android:exported="false" />
+53-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:39:13-37
+54        <activity
+54-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:40:9-42:40
+55            android:name="com.example.manage_item.AddUser"
+55-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:41:13-36
+56            android:exported="false" />
+56-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:42:13-37
+57        <activity
+57-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:43:9-45:40
+58            android:name="com.example.manage_item.Employee"
+58-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:44:13-37
+59            android:exported="false" />
+59-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:45:13-37
+60        <activity
+60-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:46:9-48:40
+61            android:name="com.example.manage_item.Mangage"
+61-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:47:13-36
+62            android:exported="false" />
+62-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:48:13-37
+63        <activity
+63-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:49:9-58:20
+64            android:name="com.example.manage_item.MainActivity"
+64-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:50:13-41
+65            android:exported="true"
+65-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:51:13-36
+66            android:noHistory="true" >
+66-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:52:13-37
+67            <intent-filter>
+67-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:53:13-57:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:54:17-69
+68-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:54:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:56:17-77
+70-->E:\GitHub_code\Manage_Item-20230622T063021Z-001\Manage_Item\app\src\main\AndroidManifest.xml:56:27-74
+71            </intent-filter>
+72        </activity>
+73
+74        <service
+74-->[androidx.room:room-runtime:2.5.0] C:\Users\Namph\.gradle\caches\transforms-3\c7101898c9de429c10d06dcf62bf4bbf\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+75            android:name="androidx.room.MultiInstanceInvalidationService"
+75-->[androidx.room:room-runtime:2.5.0] C:\Users\Namph\.gradle\caches\transforms-3\c7101898c9de429c10d06dcf62bf4bbf\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+76            android:directBootAware="true"
+76-->[androidx.room:room-runtime:2.5.0] C:\Users\Namph\.gradle\caches\transforms-3\c7101898c9de429c10d06dcf62bf4bbf\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+77            android:exported="false" />
+77-->[androidx.room:room-runtime:2.5.0] C:\Users\Namph\.gradle\caches\transforms-3\c7101898c9de429c10d06dcf62bf4bbf\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Namph\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Namph\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+81            android:authorities="com.example.manage_item.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Namph\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Namph\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Namph\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Namph\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Namph\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Namph\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Namph\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Namph\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+89        </provider>
+90    </application>
+91
+92</manifest>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#2E638E"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_vertical"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/header_nav_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_person_pin_24"
+        app:civ_border_width="3dp"
+        android:layout_marginTop="10dp"
+        app:civ_border_color="#FF000000"/>
+
+    <TextView
+        android:id="@+id/head_nav_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/head_nav_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name Id"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+
+        />
+
+    <TextView
+        android:id="@+id/head_nav_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+
+        />
+
+
+
+</LinearLayout>

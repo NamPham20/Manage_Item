@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+
+      <item android:id="@+id/nv_home"
+            android:title="@string/nav_home"
+          android:icon="@drawable/ic_home"/>
+
+      <item android:id="@+id/nv_user_list"
+          android:title="@string/nav_user_list"
+          android:icon="@drawable/ic_library_books"/>
+
+      <item android:id="@+id/nv_prohibited_items"
+          android:title="@string/nav_list_of_prohibited_items"
+          android:icon="@drawable/ic_library_books"/>
+  </group>
+
+    <item android:title="Account">
+        <menu>
+            <item android:id="@+id/nv_my_profile"
+                android:title="@string/nav_my_profile"
+                android:icon="@drawable/ic_person"/>
+
+            <item android:id="@+id/nv_history"
+                android:title="@string/nav_history"
+                android:icon="@drawable/ic_history"/>
+
+            <item android:id="@+id/nv_change_password"
+                android:title="@string/nav_change_password"
+                android:icon="@drawable/ic_password_24"/>
+
+            <item android:id="@+id/nv_logout"
+                android:title="@string/nav_log_out"
+                android:icon="@drawable/ic_out"/>
+
+        </menu>
+
+    </item>
+</menu>

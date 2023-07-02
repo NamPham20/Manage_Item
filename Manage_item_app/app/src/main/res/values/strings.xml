@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Manage_Item</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_user_list">User List</string>
+    <string name="nav_list_of_prohibited_items">List Of Prohibited Items</string>
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_change_password">Change Password</string>
+    <string name="nav_log_out">Log Out</string>
+    <string name="nav_history">History</string>
+    <string name="navigation_drawer_open">Navigation Drawer Open</string>
+    <string name="navigation_drawer_close">Navigation Drawer Close</string>
+
+</resources>

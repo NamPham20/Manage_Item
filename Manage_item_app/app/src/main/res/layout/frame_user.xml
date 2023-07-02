@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="323dp"
+        android:layout_height="125dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvFullName_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="5dp"
+            android:text="Full Name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvId_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="2dp"
+            android:drawableStart="@drawable/ic_point_24"
+            android:drawablePadding="5dp"
+            android:text="User Name Id"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvSex_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="2dp"
+            android:drawableStart="@drawable/ic_point_24"
+            android:drawablePadding="5dp"
+            android:text="Sex"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvAddress_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="2dp"
+            android:drawableStart="@drawable/ic_point_24"
+            android:drawablePadding="5dp"
+            android:text="Address"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvContac_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="2dp"
+            android:drawableStart="@drawable/ic_point_24"
+            android:drawablePadding="5dp"
+            android:text="Contact"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_toEndOf="@+id/linearLayout"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+           >
+          <ImageView
+              android:id="@+id/imvUpdate_frame"
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:src="@drawable/ic_update"
+
+              />
+
+            <ImageView
+                android:id="@+id/imvDelete_frame"
+                android:layout_marginTop="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_delete"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
